@@ -1,0 +1,3 @@
+C:\Users\BELI0708\Documents\GitHub\Gatcha2019\GatchaRun\Source\GatchaRun\GatchaRun.Build.cs
+C:\Users\BELI0708\Documents\GitHub\Gatcha2019\GatchaRun\Source\GatchaRun.Target.cs
+C:\Users\BELI0708\Documents\GitHub\Gatcha2019\GatchaRun\Source\GatchaRunEditor.Target.cs
