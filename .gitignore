@@ -77,3 +77,4 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 GatchaRun/Saved/**
 GatchaRun/Intermediate/**
+*.log
