@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GatchaRun.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7579122D-61EE-4466-920D-F1CA257EFAAC}</UniqueIdentifier>
+      <UniqueIdentifier>{F2675753-A1D1-485A-8F2A-64B1F2BA8A4D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GatchaRun.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CEC5FF8C-73B2-4A52-A6AF-1527DB6EFB36}</UniqueIdentifier>
+      <UniqueIdentifier>{F7D9918C-9F95-4EA4-A418-C9658FDF456A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GatchaRun">
-      <UniqueIdentifier>{83F78BF9-6D9B-4E01-AC8D-1593BE646084}</UniqueIdentifier>
+      <UniqueIdentifier>{25EB0CA6-2F9B-40DC-A5A5-472EDE36510B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GatchaRun\GatchaRun.Build.cs">
       <Filter>Source\GatchaRun</Filter>
