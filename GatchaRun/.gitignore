@@ -86,3 +86,4 @@ GatchaRun/Intermediate/**
 *.log
 *.log
 GatchaRun\Saved\Logs\
+WindowsNoEditor/**/**

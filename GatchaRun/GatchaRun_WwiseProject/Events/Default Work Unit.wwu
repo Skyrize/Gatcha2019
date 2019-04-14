@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6E837A26-5D44-43B7-A69A-A0CE0314E268}" SchemaVersion="89">
+<WwiseDocument Type="WorkUnit" ID="{33712C4E-ACE0-47E0-8BDF-BCA5CC2D121E}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{6E837A26-5D44-43B7-A69A-A0CE0314E268}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{33712C4E-ACE0-47E0-8BDF-BCA5CC2D121E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_FXTry" ID="{C177BD4A-DAA8-402B-BF83-886EAF4F418D}">
+				<Event Name="Play_FXTRY" ID="{DE36AC3C-854B-485E-B265-D83A31A1A430}">
 					<ChildrenList>
-						<Action Name="" ID="{5C78F127-7FE5-4CF8-850B-9656D4E79154}" ShortID="135976044">
+						<Action Name="" ID="{CFC02F42-6986-4838-9707-097171C61104}" ShortID="359848041">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FXTry" ID="{A809C4AA-6419-44CB-A5BE-0AA03495C8B5}" WorkUnitID="{9FFFADDE-8063-4A4B-96A6-2E8227F9B38F}"/>
+									<ObjectRef Name="FXTRY" ID="{5AD2898A-456E-4137-81C5-F33B3754697F}" WorkUnitID="{4206C8B6-EFB0-443B-8C8D-112A286DB06B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

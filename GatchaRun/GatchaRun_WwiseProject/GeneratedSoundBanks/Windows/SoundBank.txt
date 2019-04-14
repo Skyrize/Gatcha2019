@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3768581755	Play_FXTry			\Default Work Unit\Play_FXTry	
+	3768581755	Play_FXTRY			\Default Work Unit\Play_FXTRY	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	1046959380	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\FXTry\Wwise Tone Generator	
+	131699836	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\FXTRY\Wwise Tone Generator	
 
