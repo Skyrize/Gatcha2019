@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{4206C8B6-EFB0-443B-8C8D-112A286DB06B}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="FXTRY" ID="{5AD2898A-456E-4137-81C5-F33B3754697F}" ShortID="646473952">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
@@ -20,6 +24,9 @@
 							<Language>SFX</Language>
 						</SourcePlugin>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{F9072883-C1EC-4B69-ACD8-E14160EF2299}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Wwise Tone Generator" ID="{F1C51126-9FCF-4278-9594-051A05145337}" Platform="Linked"/>
 					</ActiveSourceList>

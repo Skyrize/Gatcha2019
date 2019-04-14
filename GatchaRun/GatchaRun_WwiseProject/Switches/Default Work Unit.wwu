@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{A60AFD3F-D805-4FBA-9720-9302DD42E6BF}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchGroup Name="Land" ID="{FB3C2966-5D34-43A0-9DD8-590FC7B5FF91}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Switch Name="Parc" ID="{FA07340A-869B-4C88-9B61-FC16BDCC390D}"/>
 						<Switch Name="Night" ID="{56291A1F-A184-42D7-9425-4DFD266E8BD1}"/>
