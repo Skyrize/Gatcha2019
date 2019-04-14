@@ -1,6 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3482C7E1-C222-47E0-945C-17ACB28DA3CC}" SchemaVersion="89">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{3482C7E1-C222-47E0-945C-17ACB28DA3CC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3482C7E1-C222-47E0-945C-17ACB28DA3CC}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="AMB_General" ID="{4A6ADD9B-2197-44E5-91F4-D5A4B56B58E2}" ShortID="70708884">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE0C0732-2591-44C8-958A-A579426D9CF7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BB9EBEA4-6968-40DF-9259-FB6967259862}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Parc" ID="{F00CBE85-9254-4B9D-BA14-D24A698D9326}" ShortID="734548786">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE0C0732-2591-44C8-958A-A579426D9CF7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BB9EBEA4-6968-40DF-9259-FB6967259862}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="Night" ID="{54CED4B8-04E8-4FE2-801E-FBFC99903328}" ShortID="597104152">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE0C0732-2591-44C8-958A-A579426D9CF7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BB9EBEA4-6968-40DF-9259-FB6967259862}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="Parc_End" ID="{E1C33B27-4DDB-4B39-83B8-46B88A8B1998}" ShortID="622871946">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE0C0732-2591-44C8-958A-A579426D9CF7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BB9EBEA4-6968-40DF-9259-FB6967259862}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="AMB_General" ID="{2AE257D3-461B-4252-A51E-B4B9CE729FB9}" ShortID="272708605">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Distance" ID="{D7FCA629-0B1C-4C5A-9F09-83A533493212}" WorkUnitID="{3E3275CD-FAE8-4C53-B390-A48ADD43FCE0}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Parc" ID="{F00CBE85-9254-4B9D-BA14-D24A698D9326}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>56.4178745210728</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Night" ID="{54CED4B8-04E8-4FE2-801E-FBFC99903328}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>44.3105948275862</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>92.0022907088122</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Parc_End" ID="{E1C33B27-4DDB-4B39-83B8-46B88A8B1998}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>78.1708730842912</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<ActorMixer Name="Poupees" ID="{4770BC42-2F62-4EA5-ACA7-C491FB098245}" ShortID="1010273081">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE0C0732-2591-44C8-958A-A579426D9CF7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BB9EBEA4-6968-40DF-9259-FB6967259862}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
