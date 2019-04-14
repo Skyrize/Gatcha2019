@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E837A26-5D44-43B7-A69A-A0CE0314E268}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6E837A26-5D44-43B7-A69A-A0CE0314E268}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_FXTry" ID="{C177BD4A-DAA8-402B-BF83-886EAF4F418D}">
+					<ChildrenList>
+						<Action Name="" ID="{5C78F127-7FE5-4CF8-850B-9656D4E79154}" ShortID="135976044">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FXTry" ID="{A809C4AA-6419-44CB-A5BE-0AA03495C8B5}" WorkUnitID="{9FFFADDE-8063-4A4B-96A6-2E8227F9B38F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
