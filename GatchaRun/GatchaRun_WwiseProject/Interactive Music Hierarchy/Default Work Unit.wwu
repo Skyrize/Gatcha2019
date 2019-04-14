@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="Music_Dynamic" ID="{25E79A32-0F6B-4D07-8611-4657160D532D}" ShortID="515213623">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>

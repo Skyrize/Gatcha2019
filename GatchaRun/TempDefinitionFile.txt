@@ -1,2 +1,2 @@
-SoundBank	"Play_FXTRY"
 SoundBank	"Play_Music"
+SoundBank	"Play_FXTRY"
