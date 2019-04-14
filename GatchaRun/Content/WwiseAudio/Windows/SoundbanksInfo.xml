@@ -22,7 +22,58 @@
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3768581755" Name="Play_FXTRY" ObjectPath="\Events\Default Work Unit\Play_FXTRY"/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="4626813" Language="SFX">
+					<ShortName>GaCha_Parc_4.wav</ShortName>
+					<Path>SFX\GaCha_Parc_4_8956FC97.wem</Path>
+				</File>
+				<File Id="100665964" Language="SFX">
+					<ShortName>GaCha_Parc_02.wav</ShortName>
+					<Path>SFX\GaCha_Parc_02_8956FC97.wem</Path>
+				</File>
+				<File Id="102464544" Language="SFX">
+					<ShortName>GaCha_Night_4.wav</ShortName>
+					<Path>SFX\GaCha_Night_4_8956FC97.wem</Path>
+				</File>
+				<File Id="204014288" Language="SFX">
+					<ShortName>GaCha_Music_Parc1_Lead.wav</ShortName>
+					<Path>SFX\GaCha_Music_Parc1_Lead_8956FC97.wem</Path>
+				</File>
+				<File Id="338329169" Language="SFX">
+					<ShortName>GaCha_Parc_5.wav</ShortName>
+					<Path>SFX\GaCha_Parc_5_8956FC97.wem</Path>
+				</File>
+				<File Id="732398786" Language="SFX">
+					<ShortName>GaCha_Music_Night_Lead.wav</ShortName>
+					<Path>SFX\GaCha_Music_Night_Lead_8956FC97.wem</Path>
+				</File>
+				<File Id="744400598" Language="SFX">
+					<ShortName>GaCha_Parc_3.wav</ShortName>
+					<Path>SFX\GaCha_Parc_3_8956FC97.wem</Path>
+				</File>
+				<File Id="771929453" Language="SFX">
+					<ShortName>GaCha_Music_Transition.wav</ShortName>
+					<Path>SFX\GaCha_Music_Transition_8956FC97.wem</Path>
+				</File>
+				<File Id="837262464" Language="SFX">
+					<ShortName>GaCha_Music_Menu.wav</ShortName>
+					<Path>SFX\GaCha_Music_Menu_8956FC97.wem</Path>
+				</File>
+				<File Id="918981775" Language="SFX">
+					<ShortName>GaCha_Night_2.wav</ShortName>
+					<Path>SFX\GaCha_Night_2_8956FC97.wem</Path>
+				</File>
+				<File Id="1030153601" Language="SFX">
+					<ShortName>GaCha_Night_3.wav</ShortName>
+					<Path>SFX\GaCha_Night_3_8956FC97.wem</Path>
+				</File>
+				<File Id="1033586876" Language="SFX">
+					<ShortName>GaCha_Night_5.wav</ShortName>
+					<Path>SFX\GaCha_Night_5_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
