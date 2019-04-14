@@ -17,7 +17,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Player_10" ID="{EE3582AC-3460-459F-A575-5ECF168AAD69}"/>
+						<CurrentStateRef Name="Player_02" ID="{13B06011-9C54-4C78-8DD5-AF9418A5F8D7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Parc" ID="{FA07340A-869B-4C88-9B61-FC16BDCC390D}"/>
