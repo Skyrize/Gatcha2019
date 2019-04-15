@@ -17,10 +17,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Player_06" ID="{7112253C-C7A7-4908-811C-D1A628A9839A}"/>
+						<CurrentStateRef Name="Player_10" ID="{EE3582AC-3460-459F-A575-5ECF168AAD69}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Parc" ID="{FA07340A-869B-4C88-9B61-FC16BDCC390D}"/>
+						<CurrentSwitchRef Name="Night" ID="{56291A1F-A184-42D7-9425-4DFD266E8BD1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

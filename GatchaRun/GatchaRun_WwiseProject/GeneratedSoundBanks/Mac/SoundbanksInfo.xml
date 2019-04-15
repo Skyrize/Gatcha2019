@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>/Users/alexisboudou/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/GaCha/Gatcha2019/GatchaRun/GatchaRun_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/alexisboudou/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/GaCha/Gatcha2019/GatchaRun/GatchaRun_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/alexisboudou/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/GaCha/Gatcha2019/GatchaRun/GatchaRun_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/alexisboudou/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/GaCha/Gatcha2019/GatchaRun/GatchaRun_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -24,39 +24,39 @@
 			<IncludedMemoryFiles>
 				<File Id="138286935" Language="SFX">
 					<ShortName>PoupeeOuverture_3.wav</ShortName>
-					<Path>SFX/PoupeeOuverture_3_56D34C19.wem</Path>
+					<Path>SFX\PoupeeOuverture_3_56D34C19.wem</Path>
 				</File>
 				<File Id="142413505" Language="SFX">
 					<ShortName>PoupeeOuverture_2.wav</ShortName>
-					<Path>SFX/PoupeeOuverture_2_56D34C19.wem</Path>
+					<Path>SFX\PoupeeOuverture_2_56D34C19.wem</Path>
 				</File>
 				<File Id="386455734" Language="SFX">
 					<ShortName>PoupeeFermeture_3.wav</ShortName>
-					<Path>SFX/PoupeeFermeture_3_56D34C19.wem</Path>
+					<Path>SFX\PoupeeFermeture_3_56D34C19.wem</Path>
 				</File>
 				<File Id="517909325" Language="SFX">
 					<ShortName>GaCha_AMB_Night.wav</ShortName>
-					<Path>SFX/GaCha_AMB_Night_56D34C19.wem</Path>
+					<Path>SFX\GaCha_AMB_Night_56D34C19.wem</Path>
 				</File>
 				<File Id="615559614" Language="SFX">
 					<ShortName>PoupeeFermeture_2.wav</ShortName>
-					<Path>SFX/PoupeeFermeture_2_56D34C19.wem</Path>
+					<Path>SFX\PoupeeFermeture_2_56D34C19.wem</Path>
 				</File>
 				<File Id="879742473" Language="SFX">
 					<ShortName>GaCha_AMB_ParcEnd.wav</ShortName>
-					<Path>SFX/GaCha_AMB_ParcEnd_56D34C19.wem</Path>
+					<Path>SFX\GaCha_AMB_ParcEnd_56D34C19.wem</Path>
 				</File>
 				<File Id="936623624" Language="SFX">
 					<ShortName>GaCha_AMB_Parc.wav</ShortName>
-					<Path>SFX/GaCha_AMB_Parc_56D34C19.wem</Path>
+					<Path>SFX\GaCha_AMB_Parc_56D34C19.wem</Path>
 				</File>
 				<File Id="1032633626" Language="SFX">
 					<ShortName>PoupeeFermeture_1.wav</ShortName>
-					<Path>SFX/PoupeeFermeture_1_56D34C19.wem</Path>
+					<Path>SFX\PoupeeFermeture_1_56D34C19.wem</Path>
 				</File>
 				<File Id="1072304928" Language="SFX">
 					<ShortName>PoupeeOuverture_1.wav</ShortName>
-					<Path>SFX/PoupeeOuverture_1_56D34C19.wem</Path>
+					<Path>SFX\PoupeeOuverture_1_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

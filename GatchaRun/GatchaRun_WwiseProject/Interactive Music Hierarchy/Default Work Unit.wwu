@@ -7,6 +7,11 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1789,6 +1794,21 @@
 												</PropertyList>
 											</MusicFade>
 										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{B3EA0200-1519-4487-B086-F2E9F3135DE0}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Music_Night" ID="{00903246-025B-4F9F-AF74-D88566E6AB8B}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Music_Transition" ID="{E7B5EDA2-2DC4-41F6-9B8B-B7F82F53008A}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
 									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
