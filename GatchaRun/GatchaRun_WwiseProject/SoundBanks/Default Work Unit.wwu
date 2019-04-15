@@ -10,6 +10,16 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Bruitages" ID="{0FDCB007-B55D-40F6-90D4-5D825A55B32B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Fermeture" ID="{93F9B8CB-2CF3-4149-BCAB-797823FE180D}" WorkUnitID="{33712C4E-ACE0-47E0-8BDF-BCA5CC2D121E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Ambiance" ID="{64A5DB6B-4F33-41A7-B533-CC4B9DDE9452}" WorkUnitID="{33712C4E-ACE0-47E0-8BDF-BCA5CC2D121E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ouverture" ID="{9DB081AA-6C7A-47A1-BA4C-B9463D4E9888}" WorkUnitID="{33712C4E-ACE0-47E0-8BDF-BCA5CC2D121E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ambiance" ID="{F49879E4-F476-4960-B02B-47AEE5D93FE0}" WorkUnitID="{33712C4E-ACE0-47E0-8BDF-BCA5CC2D121E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

@@ -31,6 +31,76 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambiance" ID="{F49879E4-F476-4960-B02B-47AEE5D93FE0}">
+					<ChildrenList>
+						<Action Name="" ID="{67ED2954-D93F-46E2-9329-9D9679205D93}" ShortID="348526019">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance" ID="{1EABFAD1-1373-4DAF-B0FF-32D0EC03EA78}" WorkUnitID="{4206C8B6-EFB0-443B-8C8D-112A286DB06B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambiance" ID="{64A5DB6B-4F33-41A7-B533-CC4B9DDE9452}">
+					<ChildrenList>
+						<Action Name="" ID="{BADECC32-CF21-451B-B615-8F4D73AA0D5E}" ShortID="503100377">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance" ID="{1EABFAD1-1373-4DAF-B0FF-32D0EC03EA78}" WorkUnitID="{4206C8B6-EFB0-443B-8C8D-112A286DB06B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fermeture" ID="{93F9B8CB-2CF3-4149-BCAB-797823FE180D}">
+					<ChildrenList>
+						<Action Name="" ID="{5205FC54-F552-4E7D-8880-477DCEC0EB9E}" ShortID="285352532">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fermeture_Poupée" ID="{AC41EFAE-C3CA-4E31-8442-55AE1C03CEAB}" WorkUnitID="{AA66651C-C775-4A8A-B87E-961B8FAC0F7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ouverture" ID="{9DB081AA-6C7A-47A1-BA4C-B9463D4E9888}">
+					<ChildrenList>
+						<Action Name="" ID="{BDB1848A-83CA-4E7E-AF85-81F8551E5814}" ShortID="314234255">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ouverture_Poupée" ID="{61F4586D-C6FF-47EF-B00C-137A7500339A}" WorkUnitID="{AA66651C-C775-4A8A-B87E-961B8FAC0F7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Casse" ID="{C77FDFD5-5D25-41EA-941A-69CDA9E774B6}">
+					<ChildrenList>
+						<Action Name="" ID="{9EAF0D40-E7BF-4CF3-85AE-00398E7C9553}" ShortID="908548862">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Casse_Poupée" ID="{7D814FB3-097C-46D5-81AE-3EE4218DAC9B}" WorkUnitID="{AA66651C-C775-4A8A-B87E-961B8FAC0F7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

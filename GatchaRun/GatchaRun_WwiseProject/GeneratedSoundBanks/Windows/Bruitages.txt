@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2839405212	Stop_Ambiance			\Default Work Unit\Stop_Ambiance	
+	3174479978	Play_Ambiance			\Default Work Unit\Play_Ambiance	
+	3459329276	Fermeture			\Default Work Unit\Fermeture	
+	4265173430	Ouverture			\Default Work Unit\Ouverture	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	138286935	PoupeeOuverture_3	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\PoupeeOuverture_3_56D34C19.wem		\Actor-Mixer Hierarchy\Joueur\Ouverture_Poupée\PoupeeOuverture_3		47558
+	142413505	PoupeeOuverture_2	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\PoupeeOuverture_2_56D34C19.wem		\Actor-Mixer Hierarchy\Joueur\Ouverture_Poupée\PoupeeOuverture_2		42126
+	386455734	PoupeeFermeture_3	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\PoupeeFermeture_3_56D34C19.wem		\Actor-Mixer Hierarchy\Joueur\Fermeture_Poupée\PoupeeFermeture_3		36290
+	517909325	GaCha_AMB_Night	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_AMB_Night_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\GaCha_AMB_Night		4586464
+	615559614	PoupeeFermeture_2	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\PoupeeFermeture_2_56D34C19.wem		\Actor-Mixer Hierarchy\Joueur\Fermeture_Poupée\PoupeeFermeture_2		38704
+	879742473	GaCha_AMB_ParcEnd	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_AMB_ParcEnd_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\GaCha_AMB_ParcEnd		5115664
+	936623624	GaCha_AMB_Parc	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_AMB_Parc_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\GaCha_AMB_Parc		5115664
+	1032633626	PoupeeFermeture_1	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\PoupeeFermeture_1_56D34C19.wem		\Actor-Mixer Hierarchy\Joueur\Fermeture_Poupée\PoupeeFermeture_1		40314
+	1072304928	PoupeeOuverture_1	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\PoupeeOuverture_1_56D34C19.wem		\Actor-Mixer Hierarchy\Joueur\Ouverture_Poupée\PoupeeOuverture_1		42326
+
