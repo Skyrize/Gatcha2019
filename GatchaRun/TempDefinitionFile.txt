@@ -1,2 +1,5 @@
-SoundBank	"Play_Music"
-SoundBank	"Play_FXTRY"
+Bruitages	"Stop_Ambiance"
+Bruitages	"Casse"
+Bruitages	"Fermeture"
+Bruitages	"Ouverture"
+Bruitages	"Play_Ambiance"

@@ -13,6 +13,7 @@ State	ID	Name	State Group			Notes
 	752866285	Player_04	Players			
 	752866286	Player_07	Players			
 	752866287	Player_06	Players			
+	1129525256	Players_00	Players			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

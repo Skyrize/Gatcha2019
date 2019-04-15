@@ -11,6 +11,72 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="290461937" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Bruitages</ObjectPath>
+			<ShortName>Bruitages</ShortName>
+			<Path>Bruitages.bnk</Path>
+			<IncludedEvents>
+				<Event Id="246486240" Name="Casse" ObjectPath="\Events\Default Work Unit\Casse"/>
+				<Event Id="3459329276" Name="Fermeture" ObjectPath="\Events\Default Work Unit\Fermeture"/>
+				<Event Id="4265173430" Name="Ouverture" ObjectPath="\Events\Default Work Unit\Ouverture"/>
+				<Event Id="3174479978" Name="Play_Ambiance" ObjectPath="\Events\Default Work Unit\Play_Ambiance"/>
+				<Event Id="2839405212" Name="Stop_Ambiance" ObjectPath="\Events\Default Work Unit\Stop_Ambiance"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="129388811" Language="SFX">
+					<ShortName>PoupeeCasse_4.wav</ShortName>
+					<Path>SFX\PoupeeCasse_4_56D34C19.wem</Path>
+				</File>
+				<File Id="138286935" Language="SFX">
+					<ShortName>PoupeeOuverture_3.wav</ShortName>
+					<Path>SFX\PoupeeOuverture_3_56D34C19.wem</Path>
+				</File>
+				<File Id="142413505" Language="SFX">
+					<ShortName>PoupeeOuverture_2.wav</ShortName>
+					<Path>SFX\PoupeeOuverture_2_56D34C19.wem</Path>
+				</File>
+				<File Id="292005300" Language="SFX">
+					<ShortName>PoupeeCasse_1.wav</ShortName>
+					<Path>SFX\PoupeeCasse_1_56D34C19.wem</Path>
+				</File>
+				<File Id="386455734" Language="SFX">
+					<ShortName>PoupeeFermeture_3.wav</ShortName>
+					<Path>SFX\PoupeeFermeture_3_56D34C19.wem</Path>
+				</File>
+				<File Id="445626871" Language="SFX">
+					<ShortName>PoupeeCasse_2.wav</ShortName>
+					<Path>SFX\PoupeeCasse_2_56D34C19.wem</Path>
+				</File>
+				<File Id="517909325" Language="SFX">
+					<ShortName>GaCha_AMB_Night.wav</ShortName>
+					<Path>SFX\GaCha_AMB_Night_56D34C19.wem</Path>
+				</File>
+				<File Id="615559614" Language="SFX">
+					<ShortName>PoupeeFermeture_2.wav</ShortName>
+					<Path>SFX\PoupeeFermeture_2_56D34C19.wem</Path>
+				</File>
+				<File Id="797528135" Language="SFX">
+					<ShortName>PoupeeCasse_3.wav</ShortName>
+					<Path>SFX\PoupeeCasse_3_56D34C19.wem</Path>
+				</File>
+				<File Id="879742473" Language="SFX">
+					<ShortName>GaCha_AMB_ParcEnd.wav</ShortName>
+					<Path>SFX\GaCha_AMB_ParcEnd_56D34C19.wem</Path>
+				</File>
+				<File Id="936623624" Language="SFX">
+					<ShortName>GaCha_AMB_Parc.wav</ShortName>
+					<Path>SFX\GaCha_AMB_Parc_56D34C19.wem</Path>
+				</File>
+				<File Id="1032633626" Language="SFX">
+					<ShortName>PoupeeFermeture_1.wav</ShortName>
+					<Path>SFX\PoupeeFermeture_1_56D34C19.wem</Path>
+				</File>
+				<File Id="1072304928" Language="SFX">
+					<ShortName>PoupeeOuverture_1.wav</ShortName>
+					<Path>SFX\PoupeeOuverture_1_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -22,58 +88,7 @@
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3768581755" Name="Play_FXTRY" ObjectPath="\Events\Default Work Unit\Play_FXTRY"/>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="4626813" Language="SFX">
-					<ShortName>GaCha_Parc_4.wav</ShortName>
-					<Path>SFX\GaCha_Parc_4_8956FC97.wem</Path>
-				</File>
-				<File Id="100665964" Language="SFX">
-					<ShortName>GaCha_Parc_02.wav</ShortName>
-					<Path>SFX\GaCha_Parc_02_8956FC97.wem</Path>
-				</File>
-				<File Id="102464544" Language="SFX">
-					<ShortName>GaCha_Night_4.wav</ShortName>
-					<Path>SFX\GaCha_Night_4_8956FC97.wem</Path>
-				</File>
-				<File Id="204014288" Language="SFX">
-					<ShortName>GaCha_Music_Parc1_Lead.wav</ShortName>
-					<Path>SFX\GaCha_Music_Parc1_Lead_8956FC97.wem</Path>
-				</File>
-				<File Id="338329169" Language="SFX">
-					<ShortName>GaCha_Parc_5.wav</ShortName>
-					<Path>SFX\GaCha_Parc_5_8956FC97.wem</Path>
-				</File>
-				<File Id="732398786" Language="SFX">
-					<ShortName>GaCha_Music_Night_Lead.wav</ShortName>
-					<Path>SFX\GaCha_Music_Night_Lead_8956FC97.wem</Path>
-				</File>
-				<File Id="744400598" Language="SFX">
-					<ShortName>GaCha_Parc_3.wav</ShortName>
-					<Path>SFX\GaCha_Parc_3_8956FC97.wem</Path>
-				</File>
-				<File Id="771929453" Language="SFX">
-					<ShortName>GaCha_Music_Transition.wav</ShortName>
-					<Path>SFX\GaCha_Music_Transition_8956FC97.wem</Path>
-				</File>
-				<File Id="837262464" Language="SFX">
-					<ShortName>GaCha_Music_Menu.wav</ShortName>
-					<Path>SFX\GaCha_Music_Menu_8956FC97.wem</Path>
-				</File>
-				<File Id="918981775" Language="SFX">
-					<ShortName>GaCha_Night_2.wav</ShortName>
-					<Path>SFX\GaCha_Night_2_8956FC97.wem</Path>
-				</File>
-				<File Id="1030153601" Language="SFX">
-					<ShortName>GaCha_Night_3.wav</ShortName>
-					<Path>SFX\GaCha_Night_3_8956FC97.wem</Path>
-				</File>
-				<File Id="1033586876" Language="SFX">
-					<ShortName>GaCha_Night_5.wav</ShortName>
-					<Path>SFX\GaCha_Night_5_8956FC97.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -9,7 +9,7 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-14</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2275,22 +2275,38 @@
 										</SourceFadeOut>
 									</TransitionInfo>
 								</MusicTransition>
-
 								<MusicTransition Name="Transition" ID="{586EF04B-D92D-40FC-BD4D-16B39E200FE6}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="5"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
-
 										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
 											<ObjectRef Name="Music_Night" ID="{00903246-025B-4F9F-AF74-D88566E6AB8B}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
 										</Reference>
-
 										<Reference Name="SourceContextObject">
 											<ObjectRef Name="Music_Parc" ID="{C5F61546-4859-452F-8C58-1AEB5E2D3763}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Music_Transition" ID="{E7B5EDA2-2DC4-41F6-9B8B-B7F82F53008A}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{A18D1D08-8BA0-4435-A69C-5C96DD7270A9}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Music_Night" ID="{00903246-025B-4F9F-AF74-D88566E6AB8B}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Music_Menu" ID="{BDFAD58C-8291-4090-877E-8C4D77856FB8}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
