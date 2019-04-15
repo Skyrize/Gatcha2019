@@ -16,6 +16,7 @@
 						<State Name="Player_08" ID="{36D8EB9A-3044-43D3-B623-38845239C698}"/>
 						<State Name="Player_09" ID="{410E43AC-9F74-452F-B752-1B71FBD47FAA}"/>
 						<State Name="Player_10" ID="{EE3582AC-3460-459F-A575-5ECF168AAD69}"/>
+						<State Name="Players_00" ID="{B8EC4FF6-8AA1-4DA7-977B-F772AAE1392C}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

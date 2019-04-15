@@ -17,4 +17,3 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	936623624	GaCha_AMB_Parc	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_AMB_Parc_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\GaCha_AMB_Parc		5115664
 	1032633626	PoupeeFermeture_1	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\PoupeeFermeture_1_56D34C19.wem		\Actor-Mixer Hierarchy\Joueur\Fermeture_Poupée\PoupeeFermeture_1		40314
 	1072304928	PoupeeOuverture_1	Y:\Desktop\GaCha\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\PoupeeOuverture_1_56D34C19.wem		\Actor-Mixer Hierarchy\Joueur\Ouverture_Poupée\PoupeeOuverture_1		42326
-

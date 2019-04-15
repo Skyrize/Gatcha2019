@@ -109,6 +109,18 @@
 														<Property Name="TimeMs" Type="Real64" Value="14666.6666666667"/>
 													</PropertyList>
 												</MusicCue>
+												<MusicCue Name="" ID="{13A780F0-5435-4B2B-9791-B61186139FD4}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="2"/>
+														<Property Name="TimeMs" Type="Real64" Value="9500"/>
+													</PropertyList>
+												</MusicCue>
+												<MusicCue Name="" ID="{B61BEA59-184D-4569-A2FA-E8796D7F2E97}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="2"/>
+														<Property Name="TimeMs" Type="Real64" Value="20000"/>
+													</PropertyList>
+												</MusicCue>
 											</CueList>
 										</MusicSegment>
 									</ChildrenList>
@@ -561,6 +573,70 @@
 										</MusicPlaylistItem>
 									</Playlist>
 								</MusicPlaylistContainer>
+								<MusicSegment Name="All_DEad" ID="{2C54F4A4-C1F3-4D26-815C-B4F58F82F185}" ShortID="347676620">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EndPosition" Type="Real64" Value="4999.29705215419"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="GaCha_MortAllPlayers" ID="{755E987E-3BFA-46CC-9A23-B0E4F2E56EA1}" ShortID="847435797">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GaCha_MortAllPlayers" ID="{B52AE01D-1A57-48CC-A8EF-3893A2A132C2}" ShortID="514225349">
+													<Language>SFX</Language>
+													<AudioFile>GaCha_MortAllPlayers.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="898244695"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5B6F4556-09DB-4120-89C3-7FF246A97A72}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0957C704-7C47-46E1-8402-1A58FF19FF1C}">
+													<ClipList>
+														<MusicClip Name="GaCha_MortAllPlayers" ID="{479B9FB9-92B5-4DD7-B713-30F82A71D0D9}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="4999.29705215419"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GaCha_MortAllPlayers" ID="{B52AE01D-1A57-48CC-A8EF-3893A2A132C2}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{B282A99B-E3A8-4195-9D38-2CFD918A2FF4}"/>
+										<MusicCue Name="Exit Cue" ID="{B6ACA307-FCC4-4F0A-9803-91014D792655}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="3625"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{17E12880-9918-4D84-A28F-76EDB3013B49}">
@@ -575,6 +651,21 @@
 											</PropertyList>
 											<TransitionInfo>
 												<TransitionObjectRef Name="Music_Transition_02" ID="{4CFB24B1-FD5B-43E9-B9B6-B7BF71B465E8}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{F80CE2C7-729A-47BB-A124-560274AAB95A}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="All_DEad" ID="{2C54F4A4-C1F3-4D26-815C-B4F58F82F185}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="Music_Transition" ID="{E7B5EDA2-2DC4-41F6-9B8B-B7F82F53008A}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
 											</TransitionInfo>
 										</MusicTransition>
 									</ChildrenList>
@@ -674,6 +765,15 @@
 									</Path>
 									<AudioNodeInfo>
 										<AudioNodeRef Name="Parc_05" ID="{4A817DB4-EB49-4FD0-B9B6-5702CB9F3266}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="Parc" ID="{FA07340A-869B-4C88-9B61-FC16BDCC390D}"/>
+										<PathElementRef Name="Players_00" ID="{B8EC4FF6-8AA1-4DA7-977B-F772AAE1392C}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="All_DEad" ID="{2C54F4A4-C1F3-4D26-815C-B4F58F82F185}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
 									</AudioNodeInfo>
 								</Entry>
 							</EntryList>
@@ -864,6 +964,18 @@
 													<PropertyList>
 														<Property Name="CueType" Type="int16" Value="2"/>
 														<Property Name="TimeMs" Type="Real64" Value="5333.33333333333"/>
+													</PropertyList>
+												</MusicCue>
+												<MusicCue Name="" ID="{E1F4E9B4-9279-405D-9389-F2716BDC48D0}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="2"/>
+														<Property Name="TimeMs" Type="Real64" Value="2716.46859083192"/>
+													</PropertyList>
+												</MusicCue>
+												<MusicCue Name="" ID="{D6A57FEA-FA8B-47C6-AF37-5E103024A73C}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="2"/>
+														<Property Name="TimeMs" Type="Real64" Value="8000"/>
 													</PropertyList>
 												</MusicCue>
 											</CueList>
@@ -1213,6 +1325,70 @@
 										</MusicPlaylistItem>
 									</Playlist>
 								</MusicPlaylistContainer>
+								<MusicSegment Name="All_DEad" ID="{94D34D4C-D10A-4120-83B4-6DA03E96349C}" ShortID="144953521">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EndPosition" Type="Real64" Value="4999.29705215419"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="GaCha_MortAllPlayers" ID="{875DBC95-0E31-4C6B-A5E7-0DE1AB2F94BE}" ShortID="612128743">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GaCha_MortAllPlayers" ID="{9876605D-0FD4-4102-AD32-C4E2765DF139}" ShortID="1021740589">
+													<Language>SFX</Language>
+													<AudioFile>GaCha_MortAllPlayers.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="898244695"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B3B77A09-CC9D-475C-AB25-68850B7B94AF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{F3091C19-91EE-4CAF-9976-D4D421CDFA02}">
+													<ClipList>
+														<MusicClip Name="GaCha_MortAllPlayers" ID="{6CBF381E-B21C-4C20-BBB8-26870F50BD54}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="4999.29705215419"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GaCha_MortAllPlayers" ID="{9876605D-0FD4-4102-AD32-C4E2765DF139}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{6E18228A-F5F0-4553-8377-A1D0BAF817D2}"/>
+										<MusicCue Name="Exit Cue" ID="{84C69EB6-E167-481D-A0EA-44A6931CAFCA}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="3625"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{167623D1-DA8E-4685-9709-8A5D55DF8FF0}">
@@ -1227,6 +1403,21 @@
 											</PropertyList>
 											<TransitionInfo>
 												<TransitionObjectRef Name="Music_Transition_02" ID="{4CFB24B1-FD5B-43E9-B9B6-B7BF71B465E8}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{6F0AAF0C-0281-4D32-9544-BE0EDAD7344F}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="All_DEad" ID="{94D34D4C-D10A-4120-83B4-6DA03E96349C}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="Music_Transition" ID="{E7B5EDA2-2DC4-41F6-9B8B-B7F82F53008A}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
 											</TransitionInfo>
 										</MusicTransition>
 									</ChildrenList>
@@ -1328,6 +1519,15 @@
 										<AudioNodeRef Name="Night_05" ID="{32D342B5-4569-4AED-810D-0416DACDB95B}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
 									</AudioNodeInfo>
 								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="Night" ID="{56291A1F-A184-42D7-9425-4DFD266E8BD1}"/>
+										<PathElementRef Name="Players_00" ID="{B8EC4FF6-8AA1-4DA7-977B-F772AAE1392C}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="All_DEad" ID="{94D34D4C-D10A-4120-83B4-6DA03E96349C}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
 							</EntryList>
 						</MusicSwitchContainer>
 						<MusicSwitchContainer Name="Music_NatureEnd" ID="{E20F3EEF-03DE-4723-A918-E0595DD9C86E}" ShortID="815293538">
@@ -1339,6 +1539,180 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="All_DEad" ID="{9B30A175-3FD6-4B62-803F-70D1205C421D}" ShortID="878240968">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EndPosition" Type="Real64" Value="4999.29705215419"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="GaCha_MortAllPlayers" ID="{1670049C-A7F9-4CF1-9B3C-1BDF4D42F29F}" ShortID="544986526">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GaCha_MortAllPlayers" ID="{C7CDAA82-4261-4422-9ACA-0930A5097346}" ShortID="34378092">
+													<Language>SFX</Language>
+													<AudioFile>GaCha_MortAllPlayers.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="898244695"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EECD5B4E-C11B-47A7-8C77-0FB018A3D9AF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{612348D1-E236-4FBE-8E30-C5CAB89BF162}">
+													<ClipList>
+														<MusicClip Name="GaCha_MortAllPlayers" ID="{5E774846-C7C2-4F05-8B5E-7ACB01297DB5}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="4999.29705215419"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="GaCha_MortAllPlayers" ID="{C7CDAA82-4261-4422-9ACA-0930A5097346}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D8342A72-093B-4BC8-ABDA-EDD3964C557B}"/>
+										<MusicCue Name="Exit Cue" ID="{7CFC6D0B-89E7-45DC-BC1B-3CE9CAB8826B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="3625"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicPlaylistContainer Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" ShortID="297265696">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="GaCha_Parc_5" ID="{032D2D2A-5A75-4350-87F9-1C7AFA596180}" ShortID="998967897">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="GaCha_Parc_5" ID="{65914D8B-F659-4181-A9B4-5381DE58E5B6}" ShortID="574571904">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GaCha_Parc_5" ID="{D6249851-D4E3-4C24-AFED-5984C5C6127B}" ShortID="31198274">
+															<Language>SFX</Language>
+															<AudioFile>GaCha_Parc_5.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="338329169"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{EE04F6BC-C87C-4976-BA7C-3FB2AE011147}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{1EA68B7A-8CDA-4AD3-AC6A-301638B39DCE}">
+															<ClipList>
+																<MusicClip Name="GaCha_Parc_5" ID="{86006F71-CD4A-432C-AD27-8EA738F546AB}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="GaCha_Parc_5" ID="{D6249851-D4E3-4C24-AFED-5984C5C6127B}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+											</ChildrenList>
+											<CueList>
+												<MusicCue Name="Entry Cue" ID="{FF5DC1D1-FF64-427F-B7B0-312DE4680AEB}"/>
+												<MusicCue Name="Exit Cue" ID="{A13773F8-E257-4B73-AC63-BBA29B2AEBFD}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="1"/>
+														<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
+													</PropertyList>
+												</MusicCue>
+												<MusicCue Name="" ID="{D35E1372-F5D5-4292-866C-9DFFC461E525}">
+													<PropertyList>
+														<Property Name="CueType" Type="int16" Value="2"/>
+														<Property Name="TimeMs" Type="Real64" Value="5333.33333333333"/>
+													</PropertyList>
+												</MusicCue>
+											</CueList>
+										</MusicSegment>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{815149F2-1B24-4BBD-8C9F-967BFA680B84}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{105350E6-4709-4CFB-B393-D8FF2B79662F}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{C5EEE665-2611-47A2-864A-BFCC8A9D19E0}" ShortID="919234020">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{C91654C3-EA89-4126-B826-AB2505535EA5}" ShortID="426566008">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="GaCha_Parc_5" ID="{032D2D2A-5A75-4350-87F9-1C7AFA596180}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Playlist>
+								</MusicPlaylistContainer>
+							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{7678A13E-AE7F-4624-A8F7-02C215648C17}">
 									<PropertyList>
@@ -1355,6 +1729,111 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<ArgumentList>
+								<ArgumentRef Name="Land" ID="{FB3C2966-5D34-43A0-9DD8-590FC7B5FF91}"/>
+								<ArgumentRef Name="Players" ID="{9ADFD926-6169-46D8-8C04-D25BD57DEE9E}"/>
+							</ArgumentList>
+							<EntryList>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_01" ID="{35B0D09A-E79B-4956-92F9-F1BCF7CC1081}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_02" ID="{13B06011-9C54-4C78-8DD5-AF9418A5F8D7}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_03" ID="{005B323F-4E11-43C5-ACC8-316C643A47E9}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_04" ID="{8D72601F-470F-4E23-BE6C-38A3D9FFE37A}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_05" ID="{B139C22B-F01E-4C4A-8831-0FFECD484642}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_06" ID="{7112253C-C7A7-4908-811C-D1A628A9839A}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_07" ID="{D58E7373-EDFB-474F-AAE0-1AD8563251A1}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_08" ID="{36D8EB9A-3044-43D3-B623-38845239C698}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_09" ID="{410E43AC-9F74-452F-B752-1B71FBD47FAA}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Player_10" ID="{EE3582AC-3460-459F-A575-5ECF168AAD69}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Parc_05" ID="{0F9F3705-F577-4A29-9B86-9B2060F7BE95}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+								<Entry>
+									<Path>
+										<PathElementRef Name="ParcEnd" ID="{D4BA9FB6-34CA-40B8-9311-C6C70F77DDA3}"/>
+										<PathElementRef Name="Players_00" ID="{B8EC4FF6-8AA1-4DA7-977B-F772AAE1392C}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="All_DEad" ID="{9B30A175-3FD6-4B62-803F-70D1205C421D}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+							</EntryList>
 						</MusicSwitchContainer>
 						<MusicPlaylistContainer Name="Music_Menu" ID="{BDFAD58C-8291-4090-877E-8C4D77856FB8}" ShortID="713722815">
 							<ReferenceList>
@@ -1796,15 +2275,22 @@
 										</SourceFadeOut>
 									</TransitionInfo>
 								</MusicTransition>
-								<MusicTransition Name="Transition" ID="{B3EA0200-1519-4487-B086-F2E9F3135DE0}">
+
+								<MusicTransition Name="Transition" ID="{586EF04B-D92D-40FC-BD4D-16B39E200FE6}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+
 										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
 											<ObjectRef Name="Music_Night" ID="{00903246-025B-4F9F-AF74-D88566E6AB8B}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+										</Reference>
+
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Music_Parc" ID="{C5F61546-4859-452F-8C58-1AEB5E2D3763}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
@@ -1861,6 +2347,67 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
+				<MusicSegment Name="All_DEad" ID="{5F0540C6-4205-403A-8C01-8A0C182A8D32}" ShortID="242957067">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EndPosition" Type="Real64" Value="4999.29705215419"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="GaCha_MortAllPlayers" ID="{902EB7EF-3D34-40F8-A940-111F500EE310}" ShortID="832039226">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GaCha_MortAllPlayers" ID="{EA064619-9814-4B79-BBD8-8ED207497EBB}" ShortID="898244695">
+									<Language>SFX</Language>
+									<AudioFile>GaCha_MortAllPlayers.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{29E14C9F-A8FA-4882-AB1C-42FEC688AB95}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{5B627A92-F3DA-43C5-B0FE-5E1AB85FD4CB}">
+									<ClipList>
+										<MusicClip Name="GaCha_MortAllPlayers" ID="{F45FA1C3-26C5-4DE0-BB7A-E9F71F836479}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="4999.29705215419"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="GaCha_MortAllPlayers" ID="{EA064619-9814-4B79-BBD8-8ED207497EBB}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{34427946-CFA5-4E95-BD4A-C9DFA0DC5FEA}"/>
+						<MusicCue Name="Exit Cue" ID="{123F6403-A3CF-4C4D-B617-EDCAEED93120}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="3625"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
