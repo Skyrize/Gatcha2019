@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AA66651C-C775-4A8A-B87E-961B8FAC0F7F}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Joueur" ID="{AA66651C-C775-4A8A-B87E-961B8FAC0F7F}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Ouverture_Poupée" ID="{61F4586D-C6FF-47EF-B00C-137A7500339A}" ShortID="126785931">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{09D8B738-19AC-41B1-957E-11BD6D5B325F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="126"/>
+											<Property Name="Min" Type="Real64" Value="-202"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PoupeeOuverture_1" ID="{40C0A23E-61CA-4372-98CE-5EEEE16CE505}" ShortID="631631998">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeOuverture_1" ID="{38009CFD-6806-472A-A277-D8E0CBA3A56D}" ShortID="1072304928">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeOuverture_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeOuverture_1" ID="{38009CFD-6806-472A-A277-D8E0CBA3A56D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoupeeOuverture_2" ID="{35189393-3550-4618-AB88-F61A52DD4784}" ShortID="742002012">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeOuverture_2" ID="{44341935-FB96-4E2F-B3A6-62268079B03A}" ShortID="142413505">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeOuverture_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeOuverture_2" ID="{44341935-FB96-4E2F-B3A6-62268079B03A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoupeeOuverture_3" ID="{634C7D21-E6AB-4EF1-8853-060A475FC639}" ShortID="926031234">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeOuverture_3" ID="{B1E5BEFE-7044-40A6-87B6-4F14904CCF18}" ShortID="138286935">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeOuverture_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeOuverture_3" ID="{B1E5BEFE-7044-40A6-87B6-4F14904CCF18}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Fermeture_Poupée" ID="{AC41EFAE-C3CA-4E31-8442-55AE1C03CEAB}" ShortID="498755833">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>17</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{29EE17EA-0758-475A-BA73-17241225EF2F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="202"/>
+											<Property Name="Min" Type="Real64" Value="-202"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PoupeeFermeture_1" ID="{FC6A56E0-2801-4FB7-8C9E-C14EA96F688B}" ShortID="474098488">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeFermeture_1" ID="{730988EE-1C93-4DAE-B522-78F7D0FC2264}" ShortID="1032633626">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeFermeture_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeFermeture_1" ID="{730988EE-1C93-4DAE-B522-78F7D0FC2264}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoupeeFermeture_2" ID="{C6B468F7-7035-45B2-8D30-F4658B22C3DD}" ShortID="377179588">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeFermeture_2" ID="{AD8E5171-6F08-458F-866E-A4E44BD2060A}" ShortID="615559614">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeFermeture_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeFermeture_2" ID="{AD8E5171-6F08-458F-866E-A4E44BD2060A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoupeeFermeture_3" ID="{33B807BF-7709-4E27-9782-1A2CE4083104}" ShortID="101929998">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeFermeture_3" ID="{1DEE970A-82DF-480A-B42F-D67A0247A6E7}" ShortID="386455734">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeFermeture_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeFermeture_3" ID="{1DEE970A-82DF-480A-B42F-D67A0247A6E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Casse_Poupée" ID="{7D814FB3-097C-46D5-81AE-3EE4218DAC9B}" ShortID="880884859">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PoupeeCasse_1" ID="{140D9743-D674-4F84-A81C-053A3451CE3F}" ShortID="156565651">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeCasse_1" ID="{70C064FB-81AF-43E4-9B41-41D15AB37C5C}" ShortID="292005300">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeCasse_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeCasse_1" ID="{70C064FB-81AF-43E4-9B41-41D15AB37C5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoupeeCasse_2" ID="{E2403C33-6BCB-4726-AB29-E41F11F17F35}" ShortID="789556830">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeCasse_2" ID="{197EA392-E528-4E60-B763-A472CA7DD677}" ShortID="445626871">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeCasse_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeCasse_2" ID="{197EA392-E528-4E60-B763-A472CA7DD677}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoupeeCasse_3" ID="{6D71D339-68E1-4AD2-9AD9-9525756B858E}" ShortID="991023534">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeCasse_3" ID="{9D4E4A35-90C4-45D4-BE88-D6A5B43593B2}" ShortID="797528135">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeCasse_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeCasse_3" ID="{9D4E4A35-90C4-45D4-BE88-D6A5B43593B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoupeeCasse_4" ID="{A9ADE74B-2213-4257-9D5E-E065786CB4A7}" ShortID="728314114">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoupeeCasse_4" ID="{28B09645-3BDC-483E-B74D-4BD3B76A1F9E}" ShortID="129388811">
+									<Language>SFX</Language>
+									<AudioFile>PoupeeCasse_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoupeeCasse_4" ID="{28B09645-3BDC-483E-B74D-4BD3B76A1F9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="PerdreVie_Poupée" ID="{5E05F6DC-33AF-4F6C-930C-C43E9384504B}" ShortID="286264819">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46B7B0CF-B222-4152-8F60-BAA8355161D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F64CDEEC-BE4C-4485-86B0-D440D630DF05}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E69436E1-C654-4741-9B2F-FCD5704769D0}" SchemaVersion="89">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{E69436E1-C654-4741-9B2F-FCD5704769D0}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Players" ID="{9ADFD926-6169-46D8-8C04-D25BD57DEE9E}">
+					<ChildrenList>
+						<State Name="None" ID="{E29F5DC8-5C05-402C-B406-A92E3C8B465B}"/>
+						<State Name="Player_01" ID="{35B0D09A-E79B-4956-92F9-F1BCF7CC1081}"/>
+						<State Name="Player_02" ID="{13B06011-9C54-4C78-8DD5-AF9418A5F8D7}"/>
+						<State Name="Player_03" ID="{005B323F-4E11-43C5-ACC8-316C643A47E9}"/>
+						<State Name="Player_04" ID="{8D72601F-470F-4E23-BE6C-38A3D9FFE37A}"/>
+						<State Name="Player_05" ID="{B139C22B-F01E-4C4A-8831-0FFECD484642}"/>
+						<State Name="Player_06" ID="{7112253C-C7A7-4908-811C-D1A628A9839A}"/>
+						<State Name="Player_07" ID="{D58E7373-EDFB-474F-AAE0-1AD8563251A1}"/>
+						<State Name="Player_08" ID="{36D8EB9A-3044-43D3-B623-38845239C698}"/>
+						<State Name="Player_09" ID="{410E43AC-9F74-452F-B752-1B71FBD47FAA}"/>
+						<State Name="Player_10" ID="{EE3582AC-3460-459F-A575-5ECF168AAD69}"/>
+						<State Name="Players_00" ID="{B8EC4FF6-8AA1-4DA7-977B-F772AAE1392C}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3768581755	Play_FXTRY			\Default Work Unit\Play_FXTRY	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	131699836	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\FXTRY\Wwise Tone Generator	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4626813	GaCha_Parc_4	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Parc_4_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Parc\Parc_04\GaCha_Parc_4\GaCha_Parc_4		1881664
+	100665964	GaCha_Parc_02	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Parc_02_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Parc\Parc_02\GaCha_Parc_02\GaCha_Parc_02		1881664
+	102464544	GaCha_Night_4	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Night_4_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Night\Night_04\GaCha_Night_4\GaCha_Night_4		1881664
+	204014288	GaCha_Music_Parc1_Lead	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Music_Parc1_Lead_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Parc\Parc_01\GaCha_Music_Parc1_Lead\GaCha_Music_Parc1_Lead		4468864
+	338329169	GaCha_Parc_5	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Parc_5_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Parc\Parc_05\GaCha_Parc_5\GaCha_Parc_5		1881664
+	732398786	GaCha_Music_Night_Lead	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Music_Night_Lead_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Night\Night_01\GaCha_Music_Night_Lead\GaCha_Music_Night_Lead		1881664
+	744400598	GaCha_Parc_3	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Parc_3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Parc\Parc_03\GaCha_Parc_3\GaCha_Parc_3		1881664
+	771929453	GaCha_Music_Transition	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Music_Transition_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Transition\GaCha_Music_Transition		796736
+	837262464	GaCha_Music_Menu	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Music_Menu_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Menu\GaCha_Music_Menu\GaCha_Music_Menu		7526464
+	918981775	GaCha_Night_2	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Night_2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Night\Night_02\GaCha_Night_2\GaCha_Night_2		1881664
+	1030153601	GaCha_Night_3	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Night_3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Night\Night_03\GaCha_Night_3\GaCha_Night_3		1881664
+	1033586876	GaCha_Night_5	D:\GitHub\Gatcha2019\GatchaRun\GatchaRun_WwiseProject\.cache\Windows\SFX\GaCha_Night_5_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Dynamic\Music_Night\Night_05\GaCha_Night_5\GaCha_Night_5		1881664
+

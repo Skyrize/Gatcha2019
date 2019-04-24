@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{33712C4E-ACE0-47E0-8BDF-BCA5CC2D121E}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{33712C4E-ACE0-47E0-8BDF-BCA5CC2D121E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_FXTRY" ID="{DE36AC3C-854B-485E-B265-D83A31A1A430}">
+					<ChildrenList>
+						<Action Name="" ID="{CFC02F42-6986-4838-9707-097171C61104}" ShortID="359848041">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FXTRY" ID="{5AD2898A-456E-4137-81C5-F33B3754697F}" WorkUnitID="{4206C8B6-EFB0-443B-8C8D-112A286DB06B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{19C9BA1C-50B8-40C3-8552-82E0AE99AFB3}">
+					<ChildrenList>
+						<Action Name="" ID="{7F72C0D0-4381-4091-BFF0-3D432637CA1A}" ShortID="533914839">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Dynamic" ID="{25E79A32-0F6B-4D07-8611-4657160D532D}" WorkUnitID="{79BF29F6-4221-491C-8E6F-2658AA90E430}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiance" ID="{F49879E4-F476-4960-B02B-47AEE5D93FE0}">
+					<ChildrenList>
+						<Action Name="" ID="{67ED2954-D93F-46E2-9329-9D9679205D93}" ShortID="348526019">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance" ID="{1EABFAD1-1373-4DAF-B0FF-32D0EC03EA78}" WorkUnitID="{4206C8B6-EFB0-443B-8C8D-112A286DB06B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambiance" ID="{64A5DB6B-4F33-41A7-B533-CC4B9DDE9452}">
+					<ChildrenList>
+						<Action Name="" ID="{BADECC32-CF21-451B-B615-8F4D73AA0D5E}" ShortID="503100377">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance" ID="{1EABFAD1-1373-4DAF-B0FF-32D0EC03EA78}" WorkUnitID="{4206C8B6-EFB0-443B-8C8D-112A286DB06B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fermeture" ID="{93F9B8CB-2CF3-4149-BCAB-797823FE180D}">
+					<ChildrenList>
+						<Action Name="" ID="{5205FC54-F552-4E7D-8880-477DCEC0EB9E}" ShortID="285352532">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fermeture_Poupée" ID="{AC41EFAE-C3CA-4E31-8442-55AE1C03CEAB}" WorkUnitID="{AA66651C-C775-4A8A-B87E-961B8FAC0F7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ouverture" ID="{9DB081AA-6C7A-47A1-BA4C-B9463D4E9888}">
+					<ChildrenList>
+						<Action Name="" ID="{BDB1848A-83CA-4E7E-AF85-81F8551E5814}" ShortID="314234255">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ouverture_Poupée" ID="{61F4586D-C6FF-47EF-B00C-137A7500339A}" WorkUnitID="{AA66651C-C775-4A8A-B87E-961B8FAC0F7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Casse" ID="{C77FDFD5-5D25-41EA-941A-69CDA9E774B6}">
+					<ChildrenList>
+						<Action Name="" ID="{9EAF0D40-E7BF-4CF3-85AE-00398E7C9553}" ShortID="908548862">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Casse_Poupée" ID="{7D814FB3-097C-46D5-81AE-3EE4218DAC9B}" WorkUnitID="{AA66651C-C775-4A8A-B87E-961B8FAC0F7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
